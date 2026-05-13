@@ -5,7 +5,7 @@ title: Privacy Policy
 
 # Privacy Policy for Freedom VPN
 
-Last updated: May 1, 2026
+Last updated: May 13, 2026
 
 Freedom VPN is an Android VPN client for Xray/VLESS configurations. This policy explains what data the app processes, what is stored on your device, and what third-party services may receive data when the app works.
 
@@ -41,7 +41,7 @@ Use only VPN/proxy servers and subscription sources you trust.
 
 Freedom VPN makes network requests that are necessary for app functionality:
 
-- subscription downloads from public mirrors of `igareck/vpn-configs-for-russia`, including GitHub raw content, jsDelivr, Statically, and GitHack mirrors;
+- subscription downloads from GitHub raw content for `igareck/vpn-configs-for-russia`, with fallback GitHub mirrors/CDNs used only when the primary raw GitHub request fails;
 - connectivity probes to `https://max.ru` and `https://cp.cloudflare.com/generate_204` to detect the available network mode;
 - IP and country lookups from `ipinfo.io`, `ipapi.co`, `ifconfig.co`, and `api.ipify.org` to show the current exit IP information.
 
